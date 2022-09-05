@@ -11,7 +11,7 @@ class DetailsPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Details page"),
       ),
-      body: Center(child: Text(title!+' '+test!, style: TextStyle(fontSize: 30),)),
+      body: Center(child: Text(title!+' va '+test!, style: TextStyle(fontSize: 30),)),
     );
   }
 }
